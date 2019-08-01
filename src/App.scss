@@ -1,0 +1,25 @@
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+
+
+.app-wrapper {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+
+  .primary {
+    &-header {
+      flex: 0 1 auto;
+    }
+    &-content {
+      flex: 1 1 auto;
+    }
+    &-footer {
+      flex: 0 1 40px;
+    }
+  }
+
+}
