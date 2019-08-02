@@ -1,0 +1,27 @@
+$box-padding: 0.5rem;
+
+.center-div {
+  margin: 0 auto;
+}
+.facc {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+
+  .box-column {
+    padding-top: $box-padding;
+    padding-right: $box-padding;
+    padding-bottom: $box-padding;
+    padding-left: $box-padding;
+  }
+// #001427 - rich black;
+// #23b5d3 - ball blue
+// #75abbc - Moonshine blue
+// #A2AEBB - Wild Blue Yonder
+// #DFE0E2 - Platinum;
+
+.title {
+  color: #75abbc;
+}

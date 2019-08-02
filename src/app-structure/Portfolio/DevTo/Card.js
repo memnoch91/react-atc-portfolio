@@ -3,7 +3,7 @@ import React from 'react';
 const Card = function ({ number }) {
     return (
         <div className="column is-one-third">
-            <div className="box box-custom">
+            <div className="box">
                 <article className="media">
                     <div className="media-left">
                         <figure className="image is-128x128">
