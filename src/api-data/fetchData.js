@@ -1,7 +1,7 @@
 import axios from "axios";
 
-export async function geEUNWtSmmonerBySummonerName(summonerName) {
-    const url = `https://eun1.api.riotgames.com/lol/summoner/v4/summoners/by-name/${summonerName}`
+export async function geEUNWtSmmonerBySummonerName() {
+    const url = `/summoner`
     try {
         const summoner = await axios.get(url);
         console.log(summoner)

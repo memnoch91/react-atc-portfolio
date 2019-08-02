@@ -4,6 +4,7 @@ import { Route, Link } from "react-router-dom"
 import Game from '../TTTgame/Game'
 import DevTo from '../Portfolio/DevTo/DevTo'
 import Header from './Header'
+import SummonerPage from '../SummonerShowcase/SummonerPage'
 
 const PrimaryLayout = function ({ children }) {
 
@@ -20,12 +21,16 @@ const PrimaryLayout = function ({ children }) {
                     <li>
                         <Link to="/portfolio">Portfolio</Link>
                     </li>
+                    <li>
+                        <Link to="/summoner">Summoner</Link>
+                    </li>
                 </ul>
             </Header>
             <div className="primary-content">
                 <Route path="/" exact component={() => <div><h1>Home</h1></div>} />
                 <Route path="/game/" exact component={Game} />
                 <Route path="/portfolio" exact component={DevTo} />
+                <Route path="/summoner" exact component={SummonerPage} />
             </div>
             <footer className="primary-footer">
                 <ul>
